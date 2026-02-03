@@ -2,6 +2,7 @@
 # ✏️ DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas
 
 [![Static Badge](https://img.shields.io/badge/📰-Notion-grey)](https://foremost-success-91b.notion.site/DreamOn-Diffusion-Language-Models-For-Code-Infilling-Beyond-Fixed-Size-Canvas-228be544bdbb80cc991ef540e7805bd7)
+[![Static Badge](https://img.shields.io/badge/📰-Report-yellow)](https://arxiv.org/abs/2602.01326)
 [![Static Badge](https://img.shields.io/badge/📰-Blog-red)](https://hkunlp.github.io/blog/2025/dreamon/)
 [![Static Badge](https://img.shields.io/badge/📰-Demo-green)](https://huggingface.co/spaces/ZiruiWu/DreamOn-v0-7B)
 [![Static Badge](https://img.shields.io/badge/Hugging%20Face%20🤗-DreamOn%207B-blue)
@@ -132,10 +133,13 @@ bash run_dreamon.sh
 
 ## Citation
 ```bibtex
-@misc{Dreamon2025,
-    title = {DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas},
-    url = {https://hkunlp.github.io/blog/2025/dreamon},
-    author = {Wu, Zirui and Zheng, Lin and Xie, Zhihui and Ye, Jiacheng and Gao, Jiahui and Feng, Yansong and Li, Zhenguo and W., Victoria and Zhou, Guorui  and Kong, Lingpeng},
-    year = {2025}
+@misc{wu2026dreamon,
+      title={DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas}, 
+      author={Zirui Wu and Lin Zheng and Zhihui Xie and Jiacheng Ye and Jiahui Gao and Shansan Gong and Yansong Feng and Zhenguo Li and Wei Bi and Guorui Zhou and Lingpeng Kong},
+      year={2026},
+      eprint={2602.01326},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.01326}, 
 }
 ```
